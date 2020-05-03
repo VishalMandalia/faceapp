@@ -12,13 +12,26 @@ import './App.css';
 const particlesOptions = {
   particles: {
     number: {
-      value: 30,
+      value: 225,
       density: {
         enable: true,
-        value_area: 800
+        value_area: 900
+      }
+    }
+  },
+  "interactivity":{
+    "detect_on":"canvas",
+    "events":{
+      "onhover":{
+        "enable":true,
+        "mode":"repulse",
+        "repulse":{
+        "distance":200,
+        "duration":0.4
       }
     }
   }
+}
 }
 
 const initialState = {
