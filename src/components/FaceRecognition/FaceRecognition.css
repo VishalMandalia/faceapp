@@ -6,8 +6,21 @@
   justify-content: center;
   cursor: pointer;
 }
-
-.align2 {
-	align-items: center;
-	max-width: 75%;
+/*.allimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+/*width='380px' heigh='auto'*/
+
+/*.align2 {
+	align-items: center;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+ .align22{
+    margin-top: 1.5rem;
+    position: absolute;
+}*/
